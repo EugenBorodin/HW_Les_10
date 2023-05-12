@@ -8,3 +8,10 @@ class Plant {
         this.height += 10;
     }
 }
+
+class Rose extends Plant {
+    constructor(height, age, numberOfFlowers) {
+        super(height,age);
+        this.numberOfFlowers = numberOfFlowers;
+    }
+}
