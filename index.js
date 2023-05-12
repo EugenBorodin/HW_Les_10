@@ -3,4 +3,8 @@ class Plant {
         this.height = height;
         this.age = age;
     }
+
+    grow() {
+        this.height += 10;
+    }
 }
