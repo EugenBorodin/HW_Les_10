@@ -15,3 +15,9 @@ class Rose extends Plant {
         this.numberOfFlowers = numberOfFlowers;
     }
 }
+ const myRose = new Rose(20,2,5);
+ console.log(myRose.height);
+ console.log(myRose.numberOfFlowers);
+
+ myRose.grow();
+ console.log(myRose.height);
